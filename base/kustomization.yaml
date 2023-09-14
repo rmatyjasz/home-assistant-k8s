@@ -3,6 +3,7 @@ kind: Kustomization
 resources:
 - deployment.yml
 - ingress.yml
+- persistent-volume.yml
 - persistent-volume-claim.yml
 - service.yml
 commonLabels:
